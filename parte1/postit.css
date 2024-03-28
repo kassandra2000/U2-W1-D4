@@ -25,6 +25,7 @@ div:hover {
   transition: ease-in-out 0.3s;
   width: 280px;
   height: 280px;
+  box-shadow: 2px 5px 8px rgb(54, 51, 51);
 }
 h2 {
   font-size: 1.7em;
