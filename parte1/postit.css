@@ -1,0 +1,92 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+main {
+  background-color: grey;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+div {
+  
+  width: 250px;
+  height: 250px;
+  margin: 50px 20px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 2;
+  font-size: 1.5em;
+  box-shadow: 9px 7px 9px rgb(54, 51, 51);
+}
+div:hover {
+  transition: ease-in-out 0.3s;
+  width: 280px;
+  height: 280px;
+}
+h2 {
+  font-size: 1.7em;
+  font-weight: 800;
+  font-style: italic;
+}
+p {
+  font-style: italic;
+  font-size: 0.9em;
+}
+.div1 {
+  background-color: rgb(226, 213, 177);
+  transform: rotate(-5deg);
+  animation: div 1s;
+}
+.div2 {
+  background-color: rgb(165, 187, 165);
+  transform: rotate(5deg);
+  animation: div 1s;
+  animation-delay: 1s;
+}
+.div3 {
+  background-color: rgb(203, 170, 211);
+  transform: rotate(-7deg);
+  animation: div 1s;
+  animation-delay: 2s;
+}
+.div4 {
+  background-color: rgb(165, 187, 165);
+  transform: rotate(7deg);
+  animation: div 1s;
+  animation-delay: 3s;
+}
+.div5 {
+  background-color: rgb(226, 213, 177);
+  transform: rotate(-5deg);
+  animation: div 1s;
+  animation-delay: 4s;
+}
+.div6 {
+  background-color: rgb(203, 170, 211);
+  transform: rotate(-7deg);
+  animation: div 1s;
+  animation-delay: 5s;
+}
+.div7 {
+  background-color: rgb(226, 213, 177);
+  animation: div 1s;
+  animation-delay: 6s;
+}
+.div8 {
+  background-color: rgb(165, 187, 165);
+  transform: rotate(4deg);
+  animation: div 1s;
+  animation-delay: 7s;
+}
+
+@keyframes div {
+  from {
+    box-shadow: 2px 4px 9px rgb(54, 51, 51);
+  }
+  to {
+    box-shadow: 1px 1px 1px rgb(54, 51, 51);
+  }
+}
